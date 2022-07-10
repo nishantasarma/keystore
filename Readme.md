@@ -8,13 +8,13 @@ To get the value of the key abc-1
 
 To search for keys with prefix xyz
 
-`curl 34.160.143.94/prefix?xyz`
+`curl 34.160.143.94/search?prefix=xyz`
 
 
 To search keys with suffix -1
 
 
-`curl 34.160.143.94?suffix=-1`
+`curl 34.160.143.94/search?suffix=-1`
 
 
 To set a key and value use

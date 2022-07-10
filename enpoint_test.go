@@ -73,7 +73,7 @@ func TestSearchKeysPrefix(t *testing.T) {
 
 func TestSearchKeysSufix(t *testing.T) {
 
-	req, err := http.NewRequest("GET", "/search/-1", nil)
+	req, err := http.NewRequest("GET", "/search", nil)
 	
 	if err != nil {
 		t.Fatal(err)

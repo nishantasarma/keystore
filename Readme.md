@@ -1,6 +1,6 @@
 # Keystore
 
-This project is online on http://34.160.143.94/
+This project is now online
 
 To get the value of the key abc-1
 
